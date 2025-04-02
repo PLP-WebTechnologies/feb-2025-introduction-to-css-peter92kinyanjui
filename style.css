@@ -1,0 +1,47 @@
+.logo{
+    width: 100px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+}
+/* element selector */
+h1,h3{
+    color: rgb(255, 136, 0);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+/* class selector */
+.container{
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* id selector */
+#content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    color: rgb(213, 20, 20);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
